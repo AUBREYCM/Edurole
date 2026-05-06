@@ -327,8 +327,8 @@ $days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
                             <td><?php echo htmlspecialchars($entry['room'] ?: '—'); ?></td>
                             <td>
                                 <a href="?delete=<?php echo $entry['timetable_id']; ?>" class="btn btn-danger btn-sm" onclick="return confirm('Delete this schedule entry?')">Delete</a>
-                             </td>
-                         </tr>
+                              </div>
+                          </tr>
                     <?php endforeach; ?>
                 <?php endif; ?>
             </tbody>

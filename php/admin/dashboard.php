@@ -12,6 +12,7 @@ $totalStudents = $pdo->query("SELECT COUNT(*) FROM users WHERE role='student'")-
 $totalTeachers = $pdo->query("SELECT COUNT(*) FROM users WHERE role='teacher'")->fetchColumn();
 $totalClasses  = $pdo->query("SELECT COUNT(*) FROM classes")->fetchColumn();
 $totalNotices  = $pdo->query("SELECT COUNT(*) FROM notices")->fetchColumn();
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -177,7 +178,7 @@ $totalNotices  = $pdo->query("SELECT COUNT(*) FROM notices")->fetchColumn();
     <div class="topbar">
         <h2>Dashboard Overview</h2>
         <div class="user-info">
-            Welcome, <strong><?php echo htmlspecialchars($_SESSION['full_name']); ?></strong>
+            <strong><?php echo htmlspecialchars($_SESSION['full_name']); ?></strong>
             <a href="../logout.php" class="logout">Logout</a>
         </div>
     </div>
