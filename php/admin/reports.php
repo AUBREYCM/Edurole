@@ -203,7 +203,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             ✅ Report generated successfully!
         </div>
         <div class="report-link">
-            📄 <a href="../reports/<?php echo basename($reportFile); ?>" target="_blank">Click here to download your report</a>
+            <a href="/edurole/reports/<?php echo basename($reportFile); ?>" target="_blank">Download PDF</a>
         </div>
     <?php endif; ?>
 

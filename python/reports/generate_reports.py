@@ -199,12 +199,12 @@ if __name__ == "__main__":
     
     if report_type == "student":
         student_id = sys.argv[2]
-        output = f"reports/student_{student_id}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.pdf"
+        output = f"C:\\xampp\\htdocs\\edurole\\reports\\student_{student_id}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.pdf"
         generate_student_report(student_id, output)
         print(output)
     elif report_type == "attendance":
         class_id = sys.argv[2]
-        output = f"reports/attendance_class_{class_id}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.pdf"
+        output = f"C:\\xampp\\htdocs\\edurole\\reports\\attendance_class_{class_id}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.pdf"
         generate_attendance_summary(class_id, output)
         print(output)
     else:
