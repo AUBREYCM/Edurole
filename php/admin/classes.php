@@ -104,6 +104,7 @@ $programmes = $pdo->query("SELECT * FROM programmes WHERE status='active'")->fet
         <a href="dashboard.php"><span>🏠</span> Dashboard</a>
         <a href="students.php"><span>🎓</span> Students</a>
         <a href="teachers.php"><span>👨‍🏫</span> Teachers</a>
+        <a href="parents.php"><span>👨‍👩‍👧</span> Parents</a>
         <a href="classes.php" class="active"><span>🏫</span> Classes</a>
         <a href="subjects.php"><span>📚</span> Subjects</a>
         <a href="timetable.php"><span>🗓️</span> Timetable</a>
