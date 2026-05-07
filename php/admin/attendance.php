@@ -131,6 +131,7 @@ if ($selected_class && $selected_subject && $selected_date) {
         <a href="dashboard.php"><span>🏠</span> Dashboard</a>
         <a href="students.php"><span>🎓</span> Students</a>
         <a href="teachers.php"><span>👨‍🏫</span> Teachers</a>
+        <a href="parents.php"><span>👨‍👩‍👧</span> Parents</a>
         <a href="classes.php"><span>🏫</span> Classes</a>
         <a href="programmes.php"><span>🎯</span> Programmes</a>
         <a href="subjects.php"><span>📚</span> Subjects</a>
